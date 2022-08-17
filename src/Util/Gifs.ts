@@ -23,7 +23,7 @@ export async function getChoGif(): Promise<string> {
     const json = (await res.json()) as TenorJSONBody;
 
     const gifs = json.results
-        .filter(result => result.content_description === 'Cho Chang GIF')
+        .filter(result => result.content_description.includes('Cho Chang'))
         .map(result => result.media[0].gif.url);
 
     return gifs[Math.floor(Math.random() * gifs.length)];
