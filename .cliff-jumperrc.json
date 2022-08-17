@@ -1,0 +1,5 @@
+{
+    "name": "cho-chang",
+    "packagePath": ".",
+    "tagTemplate": "{{new-version}}"
+}
