@@ -1,6 +1,6 @@
 {
     "name": "cho-chang",
-    "version": "1.0.0-dev",
+    "version": "1.0.0",
     "private": true,
     "description": "A Discord bot focused on Cho Chang, a fictional character from the Harry Potter franchise.",
     "main": "dist/index.js",
